@@ -1,0 +1,168 @@
+
+
+.EmployeesPage{
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:flex-start;
+  height:fit-content;
+  padding-top: 125px;
+  width: 100%;
+  flex-wrap:wrap;
+}
+
+
+input ,button{
+  width: 170px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.inp{
+    font-size: 17px;
+    border-radius: 4px;    
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+    background-color: white;
+    width: 200px;
+    height:fit-content;
+    border-radius: 15px;
+    
+
+
+}
+
+form > div {
+  margin: 1em;
+}
+
+form > div:last-child() {
+  margin-bottom: 0;
+}
+
+.combined{
+  padding: 0 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.NewEl{
+  width:800px;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding: 10px;
+}
+
+
+
+
+  .outlineBtn {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 2px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .outlineBtn:hover {
+    color: black;
+    background-color: white;
+  }
+
+
+.bt1{
+  width: 125px;
+}
+
+.HiddenPanel{
+  width: 48vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.HiddenPanel .Desc input{
+  width:115px;
+}
+
+.Distance .Desc{
+  margin: 5px;
+}
+
+.ChangedCont{
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: #699EE7;
+    display: flex;
+    flex-direction: column;
+}
+
+.ChangedCont .NewEl .Desc1 .bt1{
+  width:fit-content;
+}
+
+.FixHeight{
+  min-height: 100vh;
+}
+
+.Error{
+  display: inline;
+  width: fit-content;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+
+.Back {
+  min-height: fit-content;
+}
+
+
+@media screen and (max-width:1058px){
+
+  .EmployeesPage{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .NewEl{
+    width: 355px;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+  }
+
+  .Distance .Desc{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .FixHeight,.pic{
+    padding-left: 20px;
+  
+  }
+
+  .combined{
+    padding-left: 0px;
+  }
+
+
+
+}
